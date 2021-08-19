@@ -9,13 +9,13 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var collectionVIew: UICollectionView!
-    @IBOutlet weak var collectionViewFlowLayout: UICollectionViewFlowLayout!
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
+    
+        collectionView.delegate = self
+        collectionView.dataSource = self
         // Do any additional setup after loading the view.
     }
 
@@ -37,10 +37,8 @@ extension DetailViewController: UICollectionViewDataSource, UICollectionViewDele
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        // 横方向のスペース調整
-        let cellSize:CGFloat = self.view.bounds.width
         // 正方形で返すためにwidth,heightを同じにする
-        return CGSize(width: cellSize, height: cellSize)
+        return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
     }
     
 }

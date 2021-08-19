@@ -9,7 +9,6 @@ import UIKit
 
 class DetailCollectionViewCell: UICollectionViewCell {
     
-    
     @IBOutlet weak var detailImageView: UIImageView!
     
     override func awakeFromNib() {
