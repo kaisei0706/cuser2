@@ -49,9 +49,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vWC-Gn-Xh8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="662"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="552"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jJO-od-etj">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vWC-Gn-Xh8" secondAttribute="height" multiplier="3:4" id="LTM-Wb-Rzk"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="jJO-od-etj">
                                     <size key="itemSize" width="414" height="439"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -59,7 +62,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="DetailCollectionViewCell" reuseIdentifier="DetailCollectionViewCell" id="9mb-4R-wpB" customClass="DetailCollectionViewCell" customModule="Cuser" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="111.5" width="414" height="439"/>
+                                        <rect key="frame" x="0.0" y="56.5" width="414" height="439"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wlA-iY-onD">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="439"/>
@@ -68,7 +71,6 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ifw-PE-KCw">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="414" id="Ezo-Qs-Ef4"/>
                                                         <constraint firstAttribute="width" secondItem="Ifw-PE-KCw" secondAttribute="height" multiplier="1:1" id="t2d-KX-0kn"/>
                                                     </constraints>
                                                 </imageView>
@@ -92,7 +94,6 @@
                         <constraints>
                             <constraint firstItem="vWC-Gn-Xh8" firstAttribute="top" secondItem="84A-8k-xhG" secondAttribute="top" id="2WR-GT-e3f"/>
                             <constraint firstItem="vWC-Gn-Xh8" firstAttribute="trailing" secondItem="DRC-kR-3ZD" secondAttribute="trailing" id="WIh-9R-bgK"/>
-                            <constraint firstItem="DRC-kR-3ZD" firstAttribute="bottom" secondItem="vWC-Gn-Xh8" secondAttribute="bottom" constant="200" id="dU7-Lx-OZQ"/>
                             <constraint firstItem="vWC-Gn-Xh8" firstAttribute="leading" secondItem="DRC-kR-3ZD" secondAttribute="leading" id="izy-xw-tLQ"/>
                         </constraints>
                     </view>

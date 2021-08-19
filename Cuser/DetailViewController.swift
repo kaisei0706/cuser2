@@ -21,9 +21,9 @@ class DetailViewController: UIViewController {
 
 }
 
-extension DetailViewController: UICollectionViewDataSource, UICollectionViewDelegate{
+extension DetailViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return 2
     }
     
     
@@ -37,8 +37,9 @@ extension DetailViewController: UICollectionViewDataSource, UICollectionViewDele
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let cellSize:CGFloat = self.view.bounds.width
         // 正方形で返すためにwidth,heightを同じにする
-        return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
+        return CGSize(width: cellSize, height: cellSize)
     }
     
 }

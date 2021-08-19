@@ -50,7 +50,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
 }
 
-extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelegate{
+extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 2
     }

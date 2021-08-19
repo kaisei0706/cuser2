@@ -22,7 +22,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="xgI-zI-vhz" secondAttribute="height" multiplier="1:1" id="O3S-Yv-HJs"/>
-                            <constraint firstAttribute="width" constant="414" id="vYy-u1-w8a"/>
                         </constraints>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="S1l-jP-Gha">
                             <size key="itemSize" width="414" height="414"/>
