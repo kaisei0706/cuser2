@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A360B05C26DB7378000C8AC8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360B05B26DB7378000C8AC8 /* DetailViewController.swift */; };
 		A3F3F61226CAC00500233F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3F61126CAC00500233F02 /* AppDelegate.swift */; };
 		A3F3F61426CAC00500233F02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3F61326CAC00500233F02 /* SceneDelegate.swift */; };
 		A3F3F61926CAC00500233F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F3F61726CAC00500233F02 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		0BB425E44F0A4622782BBF53 /* Pods_Cuser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B1D7C62398F2962B51010E /* Pods-Cuser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuser.debug.xcconfig"; path = "Target Support Files/Pods-Cuser/Pods-Cuser.debug.xcconfig"; sourceTree = "<group>"; };
+		A360B05B26DB7378000C8AC8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A3F3F60E26CAC00500233F02 /* Cuser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F3F61126CAC00500233F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3F3F61326CAC00500233F02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				A3F3F61326CAC00500233F02 /* SceneDelegate.swift */,
 				A3F3F61726CAC00500233F02 /* Main.storyboard */,
 				A3F3F64326CBA57600233F02 /* HomeViewController.swift */,
+				A360B05B26DB7378000C8AC8 /* DetailViewController.swift */,
 				A3F3F64526CBA75F00233F02 /* STListTableViewCell.swift */,
 				A3F3F64626CBA75F00233F02 /* STListTableViewCell.xib */,
 				A3F3F64926CBA85500233F02 /* STCollectionViewCell.swift */,
@@ -347,6 +350,7 @@
 				A3F3F64B26CBA85500233F02 /* STCollectionViewCell.swift in Sources */,
 				A3F3F61226CAC00500233F02 /* AppDelegate.swift in Sources */,
 				A3F3F64726CBA75F00233F02 /* STListTableViewCell.swift in Sources */,
+				A360B05C26DB7378000C8AC8 /* DetailViewController.swift in Sources */,
 				A3F3F61426CAC00500233F02 /* SceneDelegate.swift in Sources */,
 				A3F3F64426CBA57600233F02 /* HomeViewController.swift in Sources */,
 			);
