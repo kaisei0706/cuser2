@@ -20,8 +20,6 @@
 		A3F3F64826CBA75F00233F02 /* STListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F3F64626CBA75F00233F02 /* STListTableViewCell.xib */; };
 		A3F3F64B26CBA85500233F02 /* STCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3F64926CBA85500233F02 /* STCollectionViewCell.swift */; };
 		A3F3F64C26CBA85500233F02 /* STCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F3F64A26CBA85500233F02 /* STCollectionViewCell.xib */; };
-		A3F3F64E26CBC95500233F02 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3F64D26CBC95500233F02 /* DetailViewController.swift */; };
-		A3F3F65026CE3C6100233F02 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F3F64F26CE3C6100233F02 /* DetailCollectionViewCell.swift */; };
 		EB1B26B2AF2A1CC13F86425B /* Pods_Cuser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB425E44F0A4622782BBF53 /* Pods_Cuser.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,8 +62,6 @@
 		A3F3F64626CBA75F00233F02 /* STListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = STListTableViewCell.xib; sourceTree = "<group>"; };
 		A3F3F64926CBA85500233F02 /* STCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCollectionViewCell.swift; sourceTree = "<group>"; };
 		A3F3F64A26CBA85500233F02 /* STCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = STCollectionViewCell.xib; sourceTree = "<group>"; };
-		A3F3F64D26CBC95500233F02 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		A3F3F64F26CE3C6100233F02 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		CF4138E9FF6677924B5F59A0 /* Pods-Cuser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuser.release.xcconfig"; path = "Target Support Files/Pods-Cuser/Pods-Cuser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,8 +128,6 @@
 				A3F3F61326CAC00500233F02 /* SceneDelegate.swift */,
 				A3F3F61726CAC00500233F02 /* Main.storyboard */,
 				A3F3F64326CBA57600233F02 /* HomeViewController.swift */,
-				A3F3F64D26CBC95500233F02 /* DetailViewController.swift */,
-				A3F3F64F26CE3C6100233F02 /* DetailCollectionViewCell.swift */,
 				A3F3F64526CBA75F00233F02 /* STListTableViewCell.swift */,
 				A3F3F64626CBA75F00233F02 /* STListTableViewCell.xib */,
 				A3F3F64926CBA85500233F02 /* STCollectionViewCell.swift */,
@@ -350,11 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F3F65026CE3C6100233F02 /* DetailCollectionViewCell.swift in Sources */,
 				A3F3F64B26CBA85500233F02 /* STCollectionViewCell.swift in Sources */,
 				A3F3F61226CAC00500233F02 /* AppDelegate.swift in Sources */,
 				A3F3F64726CBA75F00233F02 /* STListTableViewCell.swift in Sources */,
-				A3F3F64E26CBC95500233F02 /* DetailViewController.swift in Sources */,
 				A3F3F61426CAC00500233F02 /* SceneDelegate.swift in Sources */,
 				A3F3F64426CBA57600233F02 /* HomeViewController.swift in Sources */,
 			);
